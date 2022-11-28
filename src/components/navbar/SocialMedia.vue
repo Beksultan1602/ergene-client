@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[#222222]">
-    <div class="container mx-auto">
+    <div class="container mx-auto px-6">
       <div>
         <div class="text-white flex justify-between items-center">
           <p>Sign in / Join</p>
