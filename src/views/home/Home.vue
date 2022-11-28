@@ -4,6 +4,7 @@
       <div class="container mx-auto">
         <home-news />
         <home-breaking />
+        <home-partners />
       </div>
     </div>
   </app-layout>
@@ -14,9 +15,10 @@ import AppLayout from "../../layouts/AppLayout.vue";
 import NewsCard from "../../components/cards/NewsCard.vue";
 import HomeNews from "./HomeNews.vue";
 import HomeBreaking from "./HomeBreaking.vue";
+import HomePartners from "./HomePartners.vue";
 export default {
   name: "Home",
-  components: {HomeBreaking, HomeNews, NewsCard, AppLayout}
+  components: {HomePartners, HomeBreaking, HomeNews, NewsCard, AppLayout}
 }
 </script>
 

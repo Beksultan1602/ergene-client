@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center sm:flex-row gap-4 items-start sm:items-center ">
-    <img class="w-24 h-24" :src="getImageUrl(background)" alt="">
+    <img class="w-24 h-24 object-cover" :src="getImageUrl(background)" alt="">
     <div class="max-w-[13rem] sm:max-w-auto">
       <h3 class="text-sm font-semibold">Things About You Didn't Know  About The American Politicians</h3>
       <p class="uppercase text-red-500">Politics</p>
